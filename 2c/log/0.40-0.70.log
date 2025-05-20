@@ -1,0 +1,21 @@
+INFO [2025-04-13 13:09:05] Task started: basic/Network_Igraph.
+INFO [2025-04-13 13:09:05] Reading data
+  id       media media.type         type.label weight
+1  1     Lactate          4 Arterial Blood Gas      1
+2  2          pH          4 Arterial Blood Gas      1
+3  3   Anion Gap          4 Arterial Blood Gas      1
+4  4 Bicarbonate          4 Arterial Blood Gas      1
+5  5     Calcium          4 Arterial Blood Gas      1
+6  6    Chloride          4 Arterial Blood Gas      1
+  from to type weight
+1    1  3    1      4
+2    3 12    1      4
+3    3 15    1      4
+4    5 29    1      4
+5   12 13    1      4
+6   12 15    1      4
+INFO [2025-04-13 13:09:05] Analysing
+INFO [2025-04-13 13:09:05] Plotting
+INFO [2025-04-13 13:09:06] Outputting
+INFO [2025-04-13 13:09:06] Task done: basic/Network_Igraph.
+

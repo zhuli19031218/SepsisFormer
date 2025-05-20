@@ -1,0 +1,37 @@
+id,media,media.type,type.label,weight
+1,Lactate,4,Arterial Blood Gas,1
+2,pH,4,Arterial Blood Gas,1
+3,Anion Gap,4,Arterial Blood Gas,1
+4,Bicarbonate,4,Arterial Blood Gas,1
+5,Calcium,4,Arterial Blood Gas,1
+6,Chloride,4,Arterial Blood Gas,1
+7,Glucose,4,Arterial Blood Gas,1
+8,Potassium,4,Arterial Blood Gas,1
+9,Sodium,4,Arterial Blood Gas,1
+10,Hematocrit,4,Arterial Blood Gas,1
+11,Hemoglobin,4,Arterial Blood Gas,1
+12,Creatinine,4,Renal,1
+13,UreaNitogen,4,Renal,1
+14,Magnesium,4,Renal,1
+15,Phosphate,4,Renal,1
+16,PT,4,Coagulation-inflammation,1
+17,aPTT,4,Coagulation-inflammation,1
+18,INR,4,Coagulation-inflammation,1
+19,LYM,4,Coagulation-inflammation,1
+20,MON,4,Coagulation-inflammation,1
+21,NEUT,4,Coagulation-inflammation,1
+22,WBC,4,Coagulation-inflammation,1
+23,BASO,4,Coagulation-inflammation,1
+24,Eo,4,Coagulation-inflammation,1
+25,PLT,4,Coagulation-inflammation,1
+26,ALT,4,Liver,1
+27,ALP,4,Liver,1
+28,AST,4,Liver,1
+29,Albumin,4,Liver,1
+30,Bilirubin,4,Liver,1
+31,MCH,4,Erythrocyte ,1
+32,MCHC,4,Erythrocyte ,1
+33,MCV,4,Erythrocyte ,1
+34,RDW,4,Erythrocyte ,1
+35,RBC,4,Erythrocyte ,1
+36,Age,4,Age,1
