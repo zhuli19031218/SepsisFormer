@@ -1,0 +1,95 @@
+INFO [2025-04-13 12:32:30] Task started: basic/violin.
+$extra
+$extra$box
+[1] TRUE
+
+$extra$outlineColor
+[1] "#000000"
+
+$extra$position
+list()
+
+$extra$pval
+[1] "signif"
+
+$extra$removeOutliers
+[1] TRUE
+
+
+$general
+$general$alpha
+[1] 1
+
+$general$axisTextFontSize
+[1] 10
+
+$general$axisTitleSize
+[1] 12
+
+$general$font
+[1] "Arial"
+
+$general$imageExportType
+$general$imageExportType[[1]]
+[1] "jpeg"
+
+$general$imageExportType[[2]]
+[1] "pdf"
+
+
+$general$legendDir
+[1] "vertical"
+
+$general$legendPos
+[1] "right"
+
+$general$legendTextSize
+[1] 10
+
+$general$legendTitleSize
+[1] 10
+
+$general$palette
+[1] "lancet"
+
+$general$size_height
+[1] 4.5
+
+$general$size_width
+[1] 5.5
+
+$general$theme
+[1] "theme_bw"
+
+$general$title
+[1] ""
+
+$general$titleSize
+[1] 12
+
+$general$xAxisHjust
+[1] 0.5
+
+$general$xAxisTextAngle
+[1] 0
+
+$general$xAxisVjust
+[1] 1
+
+$general$ybreaks
+[1] ""
+
+
+INFO [2025-04-13 12:32:30] Reading data
+  INR subphenotype
+1 1.8            0
+2 1.8            0
+3 1.4            0
+4 1.4            0
+5 1.4            0
+6 1.8            0
+INFO [2025-04-13 12:32:31] Analysing
+INFO [2025-04-13 12:32:38] Plotting
+INFO [2025-04-13 12:32:39] Outputting
+INFO [2025-04-13 12:32:40] Task done: basic/violin.
+

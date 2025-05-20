@@ -1,0 +1,95 @@
+INFO [2025-04-13 12:37:32] Task started: basic/violin.
+$extra
+$extra$box
+[1] TRUE
+
+$extra$outlineColor
+[1] "#000000"
+
+$extra$position
+list()
+
+$extra$pval
+[1] "signif"
+
+$extra$removeOutliers
+[1] TRUE
+
+
+$general
+$general$alpha
+[1] 1
+
+$general$axisTextFontSize
+[1] 10
+
+$general$axisTitleSize
+[1] 12
+
+$general$font
+[1] "Arial"
+
+$general$imageExportType
+$general$imageExportType[[1]]
+[1] "jpeg"
+
+$general$imageExportType[[2]]
+[1] "pdf"
+
+
+$general$legendDir
+[1] "vertical"
+
+$general$legendPos
+[1] "right"
+
+$general$legendTextSize
+[1] 10
+
+$general$legendTitleSize
+[1] 10
+
+$general$palette
+[1] "lancet"
+
+$general$size_height
+[1] 4.5
+
+$general$size_width
+[1] 5.5
+
+$general$theme
+[1] "theme_bw"
+
+$general$title
+[1] ""
+
+$general$titleSize
+[1] 12
+
+$general$xAxisHjust
+[1] 0.5
+
+$general$xAxisTextAngle
+[1] 0
+
+$general$xAxisVjust
+[1] 1
+
+$general$ybreaks
+[1] ""
+
+
+INFO [2025-04-13 12:37:32] Reading data
+  WhiteBloodCells subphenotype
+1             5.7            0
+2            22.4            0
+3             8.7            0
+4             3.8            0
+5            14.6            0
+6             0.8            0
+INFO [2025-04-13 12:37:33] Analysing
+INFO [2025-04-13 12:37:41] Plotting
+INFO [2025-04-13 12:37:42] Outputting
+INFO [2025-04-13 12:37:43] Task done: basic/violin.
+
