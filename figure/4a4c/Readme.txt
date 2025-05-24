@@ -1,0 +1,1 @@
+The figures presented in this study were generated using GraphPad Prism software. GraphPad Prism is a comprehensive tool designed for scientific data analysis and visualization, which facilitates efficient statistical analysis and elegant graph creation. For further details about the software, please refer to the official website: https://www.graphpad.com/features.
