@@ -1,0 +1,16 @@
+pre_best_acc:0.7590
+pre_best_acc_auc:0.8225
+pre_best_auc:0.8271
+pre_best_auc_acc:0.7487
+tp:1123.0000
+fp:438.0000
+tn:864.0000
+fn:193.0000
+ppr:0.7194
+npr:0.8174
+recall:0.8533
+tr:439.0000
+ta:0.7590
+test_acc:0.7590
+f1:0.7807
+mcc:0.5268
