@@ -1,0 +1,26 @@
+data/NBL-smote3.csv
+
+
+parameter
+factor         input_size         moving_avg         seq_len
+1   8   25   8
+label_len  pred_len   d_model  n_heads
+1   2   8   8
+dropout  e_layers       batchsize        lr        split
+0.10   1   20   0.0008    0.6000
+None
+gelu
+False
+
+
+train
+tp          fp          tn          fn          ppr          npr 
+179.0000   0.0000   193.0000   1.0000   1.0000   0.9948
+accuracy  precision   recall  F1  AUC  MCC
+0.9973   1.0000   0.9944  0.9972   0.9946   0.9946
+
+test
+tp          fp          tn          fn          ppr          npr
+96.0000   26.0000   92.0000   35.0000   0.7869   0.7244
+accuracy  precision   recall  F1  AUC  MCC
+0.7550   0.7869   0.7328  0.7589   0.7984   0.5119

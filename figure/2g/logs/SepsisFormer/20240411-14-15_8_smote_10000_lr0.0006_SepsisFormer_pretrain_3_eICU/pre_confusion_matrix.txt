@@ -1,0 +1,26 @@
+data/mimic3_eICU_smote_8.csv
+
+
+parameter
+factor         input_size         moving_avg         seq_len
+1   8   25   8
+label_len  pred_len   d_model  n_heads
+1   2   8   8
+dropout  e_layers       batchsize        lr
+0.10   1   200   0.0006
+None
+gelu
+False
+
+
+train
+tp          fp          tn          fn          ppr          npr 
+4914.0000   255.0000   4709.0000   151.0000   0.9507   0.9689
+accuracy  precision   recall  F1  AUC  MCC
+0.9595   0.9507   0.9702  0.9603   0.9877   0.9192
+
+test
+tp          fp          tn          fn          ppr          npr
+1194.0000   258.0000   987.0000   69.0000   0.8223   0.9347
+accuracy  precision   recall  F1  AUC  MCC
+0.8696   0.8223   0.9454  0.8796   0.8918   0.7475

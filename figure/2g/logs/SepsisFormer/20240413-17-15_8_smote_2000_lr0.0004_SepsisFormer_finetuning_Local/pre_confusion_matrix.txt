@@ -1,0 +1,26 @@
+data/local_smote_8.csv
+
+
+parameter
+factor         input_size         moving_avg         seq_len
+1   8   25   8
+label_len  pred_len   d_model  n_heads
+1   2   8   8
+dropout  e_layers       batchsize        lr        split
+0.10   1   10   0.0004    0.6000
+None
+gelu
+False
+
+
+train
+tp          fp          tn          fn          ppr          npr 
+162.0000   1.0000   192.0000   18.0000   0.9939   0.9143
+accuracy  precision   recall  F1  AUC  MCC
+0.9491   0.9939   0.9000  0.9446   0.9805   0.9015
+
+test
+tp          fp          tn          fn          ppr          npr
+98.0000   23.0000   95.0000   33.0000   0.8099   0.7422
+accuracy  precision   recall  F1  AUC  MCC  Specificity
+0.7751   0.8099   0.7481  0.7778   0.8224   0.5526   0.8051

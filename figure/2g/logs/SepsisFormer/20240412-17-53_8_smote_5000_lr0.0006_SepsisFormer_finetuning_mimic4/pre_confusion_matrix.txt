@@ -1,0 +1,26 @@
+data/mimic4_smote_8.csv
+
+
+parameter
+factor         input_size         moving_avg         seq_len
+1   8   25   8
+label_len  pred_len   d_model  n_heads
+1   2   8   8
+dropout  e_layers       batchsize        lr        split
+0.10   1   200   0.0006    0.2000
+None
+gelu
+False
+
+
+train
+tp          fp          tn          fn          ppr          npr 
+669.0000   13.0000   588.0000   23.0000   0.9809   0.9624
+accuracy  precision   recall  F1  AUC  MCC
+0.9722   0.9809   0.9668  0.9738   0.9750   0.9442
+
+test
+tp          fp          tn          fn          ppr          npr
+1785.0000   875.0000   1578.0000   934.0000   0.6711   0.6282
+accuracy  precision   recall  F1  AUC  MCC
+0.6502   0.6711   0.6565  0.6637   0.6630   0.2995
