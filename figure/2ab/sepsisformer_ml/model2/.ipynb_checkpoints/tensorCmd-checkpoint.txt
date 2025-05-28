@@ -1,0 +1,3 @@
+tensorboard --logdir=MIMIC/train/logs/Transformer_10factors_cell64_ReLU_layer2_drop_ratio0.0_20250410-16-02_epoch50
+tensorboard --logdir=MIMIC/train/logs/Transformer_10factors_cell64_ReLU_layer2_drop_ratio0.0_20250410-16-12_epoch5000
+tensorboard --logdir=MIMIC/train/logs/Transformer_10factors_cell64_ReLU_layer2_drop_ratio0.0_20250410-16-16_epoch5000
