@@ -1,0 +1,14 @@
+--- 测试集指标 (BestAuc 模型) ---
+准确率 (Accuracy):     0.8794
+AUC:                  0.9423
+F1 分数 (F1 Score):   0.8867
+马修斯相关系数 (MCC): 0.7620
+--------------------
+混淆矩阵 (Confusion Matrix - [[TN, FP], [FN, TP]]):
+[[466  97]
+ [ 41 540]]
+TN: 466, FP: 97, FN: 41, TP: 540
+--------------------
+精确率 (Precision/PPV):    0.8477
+召回率 (Recall/Sensitivity): 0.9294
+特异度 (Specificity/TNR):  0.8277
