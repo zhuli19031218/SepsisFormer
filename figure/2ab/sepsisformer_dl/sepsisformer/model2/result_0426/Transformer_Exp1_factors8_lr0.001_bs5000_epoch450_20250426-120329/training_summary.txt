@@ -1,0 +1,19 @@
+--- 训练摘要 ---
+model: Transformer
+data_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/data/8/mimic4_smote_8.csv
+log_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/model2/logs/Transformer_Exp1_factors8_lr0.001_bs5000_epoch450_20250426-120329
+lr: 0.0010
+batch_size: 5000
+epoch: 450
+factors: 8
+drop_ratio: 0.1000
+num_layers: 2
+best_acc: 0.8206
+best_acc_auc: 0.8618
+best_auc: 0.8643
+best_auc_acc: 0.7928
+best_acc_epoch: 445
+
+--- 模型复杂度 (Transformer) ---
+总 FLOPs (thop 估算, MACs*2): 11.571M
+总参数量 (thop): 5.814M
