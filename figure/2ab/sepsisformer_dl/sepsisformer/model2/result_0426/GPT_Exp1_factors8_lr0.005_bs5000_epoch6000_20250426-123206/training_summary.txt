@@ -1,0 +1,15 @@
+--- 训练摘要 ---
+model: GPT
+data_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/data/8/mimic4_smote_8.csv
+log_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/model2/logs/GPT_Exp1_factors8_lr0.005_bs5000_epoch6000_20250426-123206
+lr: 0.0050
+batch_size: 5000
+epoch: 6000
+factors: 8
+drop_ratio: 0.1000
+num_layers: 1
+best_acc: 0.7593
+best_acc_auc: 0.8223
+best_auc: 0.8223
+best_auc_acc: 0.7593
+best_acc_epoch: 5805

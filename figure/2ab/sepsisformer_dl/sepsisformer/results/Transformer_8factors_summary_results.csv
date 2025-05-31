@@ -1,0 +1,2 @@
+model,num_layers,drop_ratio,batch_size,lr,epochs_run,cell,factors,log_path,pre_best_acc,pre_best_acc_auc,tp,tn,fp,fn,recall,f1,mcc,pre_best_auc,pre_best_auc_acc,pre_best_acc_epoch,test_acc,test_auc,ppr,npr,tr,ta
+Transformer,2,0.0,200,0.0004,50,64,8,logs/Transformer_8factors_cell64_ReLU_layer2_drop_ratio0.0_20250411-02-25_epoch50,0.6039340496063232,0.6366741782376233,1360,912,961,529,0.7199576495500265,0.6460807600950119,0.21277842024124557,0.6390746211876045,0.6010100841522217,45,0.6039340776182881,0,0.5859543300301594,0.6328938237335184,962.0,0.6039340776182881

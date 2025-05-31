@@ -1,0 +1,15 @@
+--- 训练摘要 ---
+model: Lstm
+data_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/data/8/local-smote.csv
+log_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/model2/logs/Lstm_Exp1_factors8_lr0.0005_bs5000_epoch750_20250426-115851
+lr: 0.0005
+batch_size: 5000
+epoch: 750
+factors: 8
+drop_ratio: 0.1000
+num_layers: 2
+best_acc: 0.7557
+best_acc_auc: 0.7988
+best_auc: 0.8248
+best_auc_acc: 0.7557
+best_acc_epoch: 582

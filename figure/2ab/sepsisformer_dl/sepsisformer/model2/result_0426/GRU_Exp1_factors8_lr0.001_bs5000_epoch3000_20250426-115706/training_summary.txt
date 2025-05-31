@@ -1,0 +1,15 @@
+--- 训练摘要 ---
+model: GRU
+data_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/data/8/mimic4_smote_8.csv
+log_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/model2/logs/GRU_Exp1_factors8_lr0.001_bs5000_epoch3000_20250426-115706
+lr: 0.0010
+batch_size: 5000
+epoch: 3000
+factors: 8
+drop_ratio: 0.1000
+num_layers: 2
+best_acc: 0.7804
+best_acc_auc: 0.8248
+best_auc: 0.8316
+best_auc_acc: 0.7768
+best_acc_epoch: 2778
