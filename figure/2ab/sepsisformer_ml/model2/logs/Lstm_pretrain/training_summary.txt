@@ -1,0 +1,15 @@
+--- 训练摘要 ---
+model: Lstm
+data_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/data/8/mimic3_eICU_smote_8.csv
+log_path: /mnt/public/home/zhijiangwan/sepsisformer/sepsisformer/model2/logs/Lstm_Exp1_factors8_lr0.004_bs3762_epoch750_20250415-080714
+lr: 0.0040
+batch_size: 3762
+epoch: 750
+factors: 8
+drop_ratio: 0.1000
+num_layers: 2
+best_acc: 0.7671
+best_acc_auc: 0.8318
+best_auc: 0.8318
+best_auc_acc: 0.7671
+best_acc_epoch: 744
