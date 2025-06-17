@@ -1,0 +1,41 @@
+Dataset,Model A (Baseline),Model B,Z-Score (A vs B),P-Value (A vs B),A significantly better than B (p<0.05),B significantly better than A (p<0.05),No significant difference (p>=0.05)
+mimic3_36,SepsisFormer (Transformer),LSTM,-1.738262378,0.08216459224543288,No,No,Yes
+mimic3_36,SepsisFormer (Transformer),GRU,-3.835964646,0.0001250724005335738,Yes,No,No
+mimic3_36,SepsisFormer (Transformer),GPT,-2.779220707,0.005448948858462167,Yes,No,No
+mimic3_36,SepsisFormer (Transformer),Decision Tree,-7.540253545,4.6905858292673625e-14,Yes,No,No
+mimic3_36,SepsisFormer (Transformer),Logistic Regression,-10.76640525,4.95990281767414e-27,Yes,No,No
+mimic3_36,SepsisFormer (Transformer),Random Forest,-4.936655193,7.947379935465617e-07,Yes,No,No
+mimic3_36,SepsisFormer (Transformer),SGD Classifier,-11.86665666,1.7637626568355373e-32,Yes,No,No
+mimic3_36,SepsisFormer (Transformer),SVM,-7.770193608,7.836625146277696e-15,Yes,No,No
+mimic4_36,SepsisFormer (Transformer),LSTM,-2.404354957,0.016201033825672177,Yes,No,No
+mimic4_36,SepsisFormer (Transformer),GRU,-0.819945291,0.41224729614571787,No,No,Yes
+mimic4_36,SepsisFormer (Transformer),GPT,-5.636456527,1.735848305250549e-08,Yes,No,No
+mimic4_36,SepsisFormer (Transformer),Decision Tree,-4.283714519,1.8379871774696368e-05,Yes,No,No
+mimic4_36,SepsisFormer (Transformer),Logistic Regression,-15.43470712,9.563355505978116e-54,Yes,No,No
+mimic4_36,SepsisFormer (Transformer),Random Forest,-7.302419692,2.8263801288492046e-13,Yes,No,No
+mimic4_36,SepsisFormer (Transformer),SGD Classifier,-15.52791166,2.245748859485606e-54,Yes,No,No
+mimic4_36,SepsisFormer (Transformer),SVM,-9.296009615,1.4581565926196568e-20,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),LSTM,-2.887328352,0.0038852853318918513,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),GRU,-5.386384983,7.188889612084731e-08,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),GPT,-3.3480165,0.0008139216543450104,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),Decision Tree,-3.537764568,0.0004035296896200383,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),Logistic Regression,-25.16914467,8.723397455040302e-140,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),Random Forest,-14.18931559,1.066949320146641e-45,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),SGD Classifier,-25.07144015,1.019265192441955e-138,Yes,No,No
+mimic3_eICU_8,SepsisFormer (Transformer),SVM,-23.73117253,1.7193187527871585e-124,Yes,No,No
+mimic4_8,SepsisFormer (Transformer),LSTM,-3.728117068,0.00019291576443464416,Yes,No,No
+mimic4_8,SepsisFormer (Transformer),GRU,-0.114967047,0.9084712413799849,No,No,Yes
+mimic4_8,SepsisFormer (Transformer),GPT,-3.527007687,0.00042028456049876686,Yes,No,No
+mimic4_8,SepsisFormer (Transformer),Decision Tree,-8.103276676,5.349838463351623e-16,Yes,No,No
+mimic4_8,SepsisFormer (Transformer),Logistic Regression,-16.172637,7.865823121364051e-59,Yes,No,No
+mimic4_8,SepsisFormer (Transformer),Random Forest,-8.384845341,5.0792492288137645e-17,Yes,No,No
+mimic4_8,SepsisFormer (Transformer),SGD Classifier,-15.89855712,6.484103060146813e-57,Yes,No,No
+mimic4_8,SepsisFormer (Transformer),SVM,-15.91880479,4.6925531781182036e-57,Yes,No,No
+local_8,SepsisFormer (Transformer),LSTM,-2.028823299,0.042476291259970905,Yes,No,No
+local_8,SepsisFormer (Transformer),GRU,-1.943316105,0.04997797680426619,Yes,No,No
+local_8,SepsisFormer (Transformer),GPT,-1.393738558,0.16339656799029156,No,No,Yes
+local_8,SepsisFormer (Transformer),Decision Tree,-3.106857577,0.0018908747292324562,Yes,No,No
+local_8,SepsisFormer (Transformer),Logistic Regression,-2.862544337,0.004202544585393041,Yes,No,No
+local_8,SepsisFormer (Transformer),Random Forest,-0.517272323,0.6049660717000831,No,No,Yes
+local_8,SepsisFormer (Transformer),SGD Classifier,-3.102308322,0.0019201785301788906,Yes,No,No
+local_8,SepsisFormer (Transformer),SVM,-2.670857329,0.007565779658287901,Yes,No,No
