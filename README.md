@@ -451,7 +451,7 @@ figure/
 
 Each figure folder contains the following types of output files:
 
-- **Video Files** (`video/`): Dynamic visualization results
+- **Video Files** (`video/`): Dynamic visualization results https://doi.org/10.5281/zenodo.15634369
 - **Log Files** (`log/`): Execution logs and intermediate results
 - **Data Files** (`data/`): Raw and preprocessed data
 
@@ -469,18 +469,3 @@ If encountering issues during execution, please check:
 1. Python environment and dependency package versions
 2. Data file paths and formats
 3. Error messages in execution logs
-
-
-## Figure Legends
-Figure 2ab, ROC curves illustrating the prognostic prediction ability of SepsisFormer using 36 sepsis predictors is superior to the based models on the dataset MIMIC-III (p<0.01, except SepsisFormer vs. LSTM p=0.08,) and MIMIC-IV (p<0.01, except SepsisFormer vs. GRU p=0.41). All p-values by DeLong's test. 
-Figure 2c, Network diagram displaying correlations among predictors, where a line connection indicates a statistically significant difference among predictors (p<0.05, Pearson’s correlation coefficients with two-sided significance testing). 
-Figure 2d, ROC curves of prognostic prediction performance based on coagulation-inflammatory markers from local ICU data, comparing MMID-SMOTE with various domain-adaptive approaches and a no-adaptation baseline. 
-Figure 2f, Cluster-informed EHR variable-level explainability. The chord diagram and the radar plot illustrate the varying contributions among the five categories. 
-Figure 2g, Model-level explainability. The SHAP value-based contributions of the coagulation-inflammatory predictors to SepsisFormer reflect the importance of the features. The decision plot visualizes the contribution of coagulation-inflammatory predictors to individual patient predictions. Each line represents a patient, showing the cumulative SHAP values of each predictor from the bottom to the top of the plot. The Sankey diagram shows the cumulative overlap ordering of 8 predictors in the 1~8 transformer neural network. 
-Figure  3c, Violin diagrams showing the significant difference in the distributions of coagulation-inflammatory markers between CIS1 and CIS2, as determined by Mann-Whitney U tests. 
-Figure 3d, ROC curves illustrating the SMART and established scoring systems for the local ICU. 
-Figure 3h, Violin diagrams illustrating the difference in distribution of coagulation-inflammatory markers among mild, moderate, severe, and dangerous risk levels, as determined by Mann–Whitney U tests. 
-Figure 4a, c, Kaplan‒Meier survival curves illustrating the cumulative probability of 28-day survival for patient subgroups with distinct subphenotypes (CIS1 and CIS2) or risk levels (mild, moderate, severe, and dangerous) in the heparin treatment and control subgroups. Log-rank tests for survival analysis. 
-Figure 4b, Radar plot highlighting different degrees of severity across five categories among the four risk levels in the heparin treatment and control subgroups. 
-Figure 4d, Simplified diagram demonstrating the division of septic patients into eight subgroups of subphenotypes combined with risk stratification (CIS1_Mild, CIS1_Moderate, CIS1_Severe, CIS1_Dangerous, CIS2_Mild, CIS2_Moderate, CIS2_Severe, and CIS2_Dangerous). The HR values (95% CI) and p values (Log-rank tests) for the subphenotypes of patients illustrate the differences in the benefits of heparin treatment among these subgroups.
-
