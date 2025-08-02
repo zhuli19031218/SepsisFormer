@@ -451,7 +451,7 @@ figure/
 
 Each figure folder contains the following types of output files:
 
-- **Video Files** (`video/`): Dynamic visualization results https://doi.org/10.5281/zenodo.15634369
+- **Video Files** (`video/`): Dynamic visualization results https://doi.org/10.5281/zenodo.15634368
 - **Log Files** (`log/`): Execution logs and intermediate results
 - **Data Files** (`data/`): Raw and preprocessed data
 
